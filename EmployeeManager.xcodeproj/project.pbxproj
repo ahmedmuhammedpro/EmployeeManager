@@ -13,6 +13,9 @@
 		C808EB7E242B6F8C0087FF48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C808EB7C242B6F8C0087FF48 /* Main.storyboard */; };
 		C808EB80242B6F8F0087FF48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C808EB7F242B6F8F0087FF48 /* Assets.xcassets */; };
 		C808EB83242B6F8F0087FF48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C808EB81242B6F8F0087FF48 /* LaunchScreen.storyboard */; };
+		C808EB8B242B78B10087FF48 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C808EB8A242B78B10087FF48 /* Person.swift */; };
+		C808EB8D242B7AC20087FF48 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = C808EB8C242B7AC20087FF48 /* Employee.swift */; };
+		C808EB8F242B7B5B0087FF48 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C808EB8E242B7B5B0087FF48 /* Manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C808EB7F242B6F8F0087FF48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C808EB82242B6F8F0087FF48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C808EB84242B6F8F0087FF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C808EB8A242B78B10087FF48 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		C808EB8C242B7AC20087FF48 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		C808EB8E242B7B5B0087FF48 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				C808EB7F242B6F8F0087FF48 /* Assets.xcassets */,
 				C808EB81242B6F8F0087FF48 /* LaunchScreen.storyboard */,
 				C808EB84242B6F8F0087FF48 /* Info.plist */,
+				C808EB8A242B78B10087FF48 /* Person.swift */,
+				C808EB8C242B7AC20087FF48 /* Employee.swift */,
+				C808EB8E242B7B5B0087FF48 /* Manager.swift */,
 			);
 			path = EmployeeManager;
 			sourceTree = "<group>";
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C808EB7B242B6F8C0087FF48 /* ViewController.swift in Sources */,
+				C808EB8F242B7B5B0087FF48 /* Manager.swift in Sources */,
 				C808EB77242B6F8C0087FF48 /* AppDelegate.swift in Sources */,
+				C808EB8B242B78B10087FF48 /* Person.swift in Sources */,
+				C808EB8D242B7AC20087FF48 /* Employee.swift in Sources */,
 				C808EB79242B6F8C0087FF48 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
